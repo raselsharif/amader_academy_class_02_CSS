@@ -31,6 +31,10 @@
 }
 .menu li {
   list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #35373a;
 }
 .menu_button a {
   padding: 10px 15px;
@@ -198,5 +202,34 @@
   background: #ec5b53;
   border: none;
   cursor: pointer;
+  color: white;
+}
+.footer_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_main a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+.footer_icon {
+  display: flex;
+  gap: 10px;
+}
+.footer_icon img {
+  width: 30px;
+  cursor: pointer;
+}
+.white_line {
+  margin-top: 50px;
+  height: 0.8px;
+  width: 100%;
+  background: white;
+}
+.copyright {
+  margin-top: 80px;
+  text-align: center;
   color: white;
 }
